@@ -8,6 +8,7 @@
   
 ## Interessantes   
   * [The Library of Babel](https://libraryofbabel.info)
+  * [Diablo in Browser](https://www.reddit.com/r/programming/comments/ckk77o/diablo_1_ported_to_browser_based_on_devilution/)
 
 ## Aplicações
   * [DRAKON Editor](http://drakon-editor.sourceforge.net/editor.html): Software Diagramming <img src="http://drakon-editor.sourceforge.net/crossroad.png" width="50" height="50">

@@ -15,3 +15,6 @@
   
 ## Pending
   * [Software Visualization Tools](https://softvis.wordpress.com/tools/)
+  
+## Oracle
+  * [BLOG - Salvis - SQLDeveloper Plugins](https://www.salvis.com/blog/download/)

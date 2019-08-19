@@ -6,6 +6,15 @@
   * [Regex 101](https://regex101.com/): Regex Tester
   * [SWISH](https://swish.swi-prolog.org/): Online SWI Prolog IDE
   
+## Programming
+
+### Frameworks 
+  * [Sciter](https://sciter.com) : Embeddable HTML/CSS/script engine
+for modern UI development
+### Libraries  
+  * Javascript
+    * [Y-JS](http://y-js.org/) : Yjs is a framework for offline-first p2p shared editing on structured data like text, richtext, json, or XML. It is fairly easy to get started, as Yjs hides most of the complexity of concurrent editing
+    
 ## Interessantes   
   * [The Library of Babel](https://libraryofbabel.info)
   * [Diablo in Browser](https://www.reddit.com/r/programming/comments/ckk77o/diablo_1_ported_to_browser_based_on_devilution/)

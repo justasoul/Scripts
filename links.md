@@ -17,6 +17,7 @@ for modern UI development
     
 ## Reddit Post 
   * [online_regex_tester_and_debugger](https://www.reddit.com/r/programming/comments/cqmcts/online_regex_tester_and_debugger_for_multiple/)
+  * [Find Deep Learning AI projects and pre-trained models](https://www.reddit.com/r/Python/comments/cq53v4/i_made_a_program_that_will_help_you_find_deep/)
 ## Interessantes   
   * [The Library of Babel](https://libraryofbabel.info)
   * [Diablo in Browser](https://www.reddit.com/r/programming/comments/ckk77o/diablo_1_ported_to_browser_based_on_devilution/)

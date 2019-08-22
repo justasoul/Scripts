@@ -1,3 +1,8 @@
+REM
+REM  USAGE:
+REM    call_sqlplus.bat  schema/password@SID  filename
+REM
+
 @echo off
 
 set oracle_connect_string=%1

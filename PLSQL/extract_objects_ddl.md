@@ -1,4 +1,9 @@
 
+Permite obter um xml com o DDL dos vários objectos de um schema.
+
+Para depois navegar no ficheiro podemos utilizar por exemplo o [Foxe](http://www.firstobject.com/dn_editor.htm).
+  
+Depois de aberto no Foxe podemos obter o ddl de um elemento através de clickar com botão direito e depois a opção "Element Data". Com isto obteremos o valor sem as entidades xml (```&quot;```... ).
 
 ```
 Select 

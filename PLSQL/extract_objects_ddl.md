@@ -11,27 +11,46 @@ Select
 dbms_xmlgen.getxml(
 
 q'[
-with dataset as (
-  Select regexp_replace(type, '((^\s)*)(\s.*)', '\1') generic_type, US.*, case when line = 1 then 'Create or replace ' else '' end || US.text line_text  
+with data_model as (
+
+Select DM.type generic_type, DM.type, name 
+     , dbms_metadata.get_ddl(
+         object_type=> trim(upper(DM.type)), name=> trim(upper(DM.name))
+          -- , schema=> ?, version=> ?, model=> ?, transform=> ?
+       ) line_text
+     , 1 line
+ 
+  from (  Select 'TABLE' type, table_name name from user_tables
+          union all 
+          Select 'VIEW'  type, view_name name from user_views
+       ) DM 
+
+)
+, code as (
+  Select regexp_replace(type, '((^\s)*)(\s.*)', '\1') generic_type, US.type, US.name, to_clob( case when line = 1 then 'Create or replace ' else '' end || US.text ) line_text, line  
     from user_source US  
    where type in (
-          -- 'PACKAGE', 'PACKAGE BODY', 'FUNCTION', 'PROCEDURE', 
+          'PACKAGE', 'PACKAGE BODY', 'FUNCTION', 'PROCEDURE', 
           'TYPE', 'TYPE BODY'
-         ) 
-   -- where type in ('TYPE', 'TYPE BODY')
-
+         )
 ) 
+
+, code_and_data_model as (
+  Select * from data_model 
+  union all 
+  Select * from code 
+)
 
 Select generic_type
      , name
      , DBMS_XMLGEN.CONVERT(EXTRACT(xmltype('<?xml version="1.0"?><document>'||XMLAGG(XMLTYPE('<V>'|| DBMS_XMLGEN.CONVERT(
 
-         D.line_text 
+         C.line_text 
 
-       )|| '</V>') order by name, type, line asc ).getclobval()||'</document>'), '/document/V/text()') .getclobval(),1) DDL 
+       )|| '</V>') order by C.name, C.type, C.line asc ).getclobval()||'</document>'), '/document/V/text()') .getclobval(),1) DDL 
  
- from dataset D
-group by generic_type, name
+ from code_and_data_model C
+group by C.generic_type, C.name
 ]'
 
 
@@ -39,4 +58,28 @@ group by generic_type, name
 
 from dual 
 ;
+```
+## TODO
+  
+Tentar criar um XSLT para transformar o XML devolvido acima em algo como:
+  
+```
+<catalog>
+
+  <data_model>
+    <table> 
+       <table_name1>ddl for this table </table_name1>
+       <table_name2>ddl for this table </table_name2>
+       (...)
+    </table>
+    <view></view>
+  </data_model>
+
+  <code>
+   <procedure></procedure>
+   <function></function> 
+   <package></package>  
+  </code>  
+
+</catalog>
 ```

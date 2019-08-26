@@ -6,6 +6,16 @@ Para depois navegar no ficheiro podemos utilizar por exemplo o [Foxe](http://www
 Depois de aberto no Foxe podemos obter o ddl de um elemento através de clickar com botão direito e depois a opção "Element Data". Com isto obteremos o valor sem as entidades xml (```&quot;```... ).
 
 ```
+
+begin
+
+    DBMS_METADATA.set_transform_param (DBMS_METADATA.session_transform, 'SQLTERMINATOR', true);
+    DBMS_METADATA.set_transform_param (DBMS_METADATA.session_transform, 'PRETTY', true);
+    DBMS_METADATA.set_transform_param (DBMS_METADATA.session_transform, 'SEGMENT_ATTRIBUTES', false);
+    DBMS_METADATA.set_transform_param (DBMS_METADATA.session_transform, 'STORAGE', false);
+end;
+
+
 Select 
 
 dbms_xmlgen.getxml(

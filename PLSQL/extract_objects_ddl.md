@@ -5,7 +5,7 @@ Para depois navegar no ficheiro podemos utilizar por exemplo o [Foxe](http://www
   
 Depois de aberto no Foxe podemos obter o ddl de um elemento através de clickar com botão direito e depois a opção "Element Data". Com isto obteremos o valor sem as entidades xml (```&quot;```... ).
 
-```
+```sql
 
 begin
 
@@ -73,7 +73,7 @@ from dual
   
 Tentar criar um XSLT para transformar o XML devolvido acima em algo como:
   
-```
+```xml
 <catalog>
 
   <data_model>

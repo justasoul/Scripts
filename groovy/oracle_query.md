@@ -1,5 +1,7 @@
 ## Para fazer uma simples ligação à BD e retornar dados
   
+É preciso no entanto que o projecto groovy importe o ojdbc (ojdbc8.jar)  
+  
 ```groovy
 package bn
 

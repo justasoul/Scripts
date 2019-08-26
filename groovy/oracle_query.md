@@ -2,7 +2,7 @@
   
 É preciso no entanto que o projecto groovy importe o ojdbc (ojdbc8.jar)  
   
-```groovy
+```java
 package bn
 
 import groovy.sql.Sql

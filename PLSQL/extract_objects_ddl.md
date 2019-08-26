@@ -7,6 +7,7 @@ Depois de aberto no Foxe podemos obter o ddl de um elemento através de clickar 
 
 ```sql
 
+
 begin
 
     DBMS_METADATA.set_transform_param (DBMS_METADATA.session_transform, 'SQLTERMINATOR', true);
@@ -15,20 +16,18 @@ begin
     DBMS_METADATA.set_transform_param (DBMS_METADATA.session_transform, 'STORAGE', false);
 end;
 
-
+with dataset as (
 Select 
 
-dbms_xmlgen.getxml(
-
+dbms_xmlgen.getxml( 
 q'[
 with data_model as (
 
-Select DM.type generic_type, DM.type, name 
+Select DM.type, DM.name 
      , dbms_metadata.get_ddl(
          object_type=> trim(upper(DM.type)), name=> trim(upper(DM.name))
           -- , schema=> ?, version=> ?, model=> ?, transform=> ?
-       ) line_text
-     , 1 line
+       ) ddl
  
   from (  Select 'TABLE' type, table_name name from user_tables
           union all 
@@ -37,12 +36,20 @@ Select DM.type generic_type, DM.type, name
 
 )
 , code as (
-  Select regexp_replace(type, '((^\s)*)(\s.*)', '\1') generic_type, US.type, US.name, to_clob( case when line = 1 then 'Create or replace ' else '' end || US.text ) line_text, line  
-    from user_source US  
-   where type in (
-          'PACKAGE', 'PACKAGE BODY', 'FUNCTION', 'PROCEDURE', 
-          'TYPE', 'TYPE BODY'
+
+  Select object_type type, object_name name 
+
+       , dbms_metadata.get_ddl(
+           object_type=> object_type , name=> object_name
+         ) ddl 
+    
+    from user_objects 
+   where object_type in (
+            'PACKAGE', /* 'PACKAGE BODY',*/ 'FUNCTION', 'PROCEDURE' 
+           , 'TYPE' /*, 'TYPE BODY'*/
          )
+     and object_name not like 'SYS_PLSQL%'  
+
 ) 
 
 , code_and_data_model as (
@@ -51,22 +58,46 @@ Select DM.type generic_type, DM.type, name
   Select * from code 
 )
 
-Select generic_type
-     , name
-     , DBMS_XMLGEN.CONVERT(EXTRACT(xmltype('<?xml version="1.0"?><document>'||XMLAGG(XMLTYPE('<V>'|| DBMS_XMLGEN.CONVERT(
-
-         C.line_text 
-
-       )|| '</V>') order by C.name, C.type, C.line asc ).getclobval()||'</document>'), '/document/V/text()') .getclobval(),1) DDL 
- 
- from code_and_data_model C
-group by C.generic_type, C.name
-]'
-
-
-) ddl 
+Select * from code_and_data_model
+]' 
+) ddl
 
 from dual 
+)
+
+Select xmltransform(
+          xmltype(ddl)
+        , xmltype(
+
+        q'[
+        <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <xsl:template match="/">
+        <catalog>
+            <xsl:for-each select="/ROWSET/ROW">
+
+               <xsl:variable name="type" select="TYPE" />
+               <xsl:variable name="name" select="NAME" />
+               <xsl:variable name="ddl" select="DDL" />
+
+
+               <xsl:element name="{$type}">
+
+                 <xsl:element name="{$name}">
+                   <xsl:value-of select="DDL"/>
+                 </xsl:element>
+               
+               </xsl:element>
+
+            </xsl:for-each>
+        </catalog>
+        </xsl:template>
+        </xsl:stylesheet>
+        ]'
+        )
+
+    ).getClobVAl() bla 
+
+ from dataset 
 ;
 ```
 ## TODO

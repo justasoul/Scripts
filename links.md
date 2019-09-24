@@ -24,6 +24,7 @@ for modern UI development
 
 ## Aplicações
   * [DRAKON Editor](http://drakon-editor.sourceforge.net/editor.html): Software Diagramming <img src="http://drakon-editor.sourceforge.net/crossroad.png" width="50" height="50">
+  * [Looking Glass](https://github.com/dmolchanenko/LookingGlass): A cross-browser open-source tool to record, develop, debug Selenium scripts as well as identify and validate HTML objects by XPath, CSS, etc.
   
 ## Pending
   * [Software Visualization Tools](https://softvis.wordpress.com/tools/)

@@ -4,7 +4,7 @@
 ````sql
 select *
 from (
-  select name, type, connect_by_root(name) as root_name,
+  select object_name, name, type, connect_by_root(object_name) as root_object_name, connect_by_root(name) as root_name,
     connect_by_root(type) as root_type, connect_by_isleaf as isleaf
   from user_identifiers
   start with object_type = 'PACKAGE BODY'
@@ -17,6 +17,6 @@ from (
 )
 where type in ('FUNCTION', 'PROCEDURE')
   and name <> root_name 
-  and name not in ('SYSTIMESTAMP', 'UPPER', 'SQLERRM', 'RAISE_APPLICATION_ERROR')
+  and name not in ('SYSTIMESTAMP', 'sysdate', 'UPPER', 'SQLERRM', 'RAISE_APPLICATION_ERROR')
 ;
 ````

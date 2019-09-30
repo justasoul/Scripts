@@ -16,6 +16,7 @@ with 1 as dummy
 MATCH (f{name:"PN.INSERT_ORDER"})-[:CALLS*1..3]-(m)-[:CALLS*1..3]-(e:EVENTO) return f, m, e
 ```` 
 
-## Match simples 
+## Menor ligação (direccionada) entre 2 nodos 
 ```` 
+MATCH (f{name:"PN.INSERT_ORDER"}),(e:EVENTO{name:"0103"}), p = shortestPath((e)-[*..15]->(f)) RETURN p
 ```` 

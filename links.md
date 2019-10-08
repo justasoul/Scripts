@@ -7,6 +7,7 @@
   * [Regex 101](https://regex101.com/): Regex Tester
   * [SWISH](https://swish.swi-prolog.org/): Online SWI Prolog IDE
   * [CodeSandBox](https://codesandbox.io/): Code editor for Web
+  * [CyberChef](https://gchq.github.io/CyberChef/): The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
     
 ## Programming
 

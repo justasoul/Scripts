@@ -7,6 +7,7 @@
   * [Regex 101](https://regex101.com/): Regex Tester
   * [SWISH](https://swish.swi-prolog.org/): Online SWI Prolog IDE
   * [CodeSandBox](https://codesandbox.io/): Code editor for Web
+    
 ## Programming
 
 ### Frameworks 
@@ -26,7 +27,8 @@ for modern UI development
 ## Aplicações
   * [DRAKON Editor](http://drakon-editor.sourceforge.net/editor.html): Software Diagramming <img src="http://drakon-editor.sourceforge.net/crossroad.png" width="50" height="50">
   * [Looking Glass](https://github.com/dmolchanenko/LookingGlass): A cross-browser open-source tool to record, develop, debug Selenium scripts as well as identify and validate HTML objects by XPath, CSS, etc.
-  * [ZPAQ](http://mattmahoney.net/dc/zpaq.html): zpaq is a free and open source incremental, journaling command-line archiver for Windows, Linux and Mac OS/X. Incremental means that when you back up your hard drive, for example:
+  * [ZPAQ](http://mattmahoney.net/dc/zpaq.html): zpaq is a free and open source incremental, journaling command-line archiver for Windows, Linux and Mac OS/X
+  * [ZeroTier](https://www.zerotier.com/): Use the easiest to manage and most widely supported network virtualization platform to connect all your devices, cloud VMs, and apps as if the whole world is one big cloud region!
   
 ## Pending
   * [Software Visualization Tools](https://softvis.wordpress.com/tools/)

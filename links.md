@@ -8,6 +8,7 @@
   * [SWISH](https://swish.swi-prolog.org/): Online SWI Prolog IDE
   * [CodeSandBox](https://codesandbox.io/): Code editor for Web
   * [CyberChef](https://gchq.github.io/CyberChef/): The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+  * [Archive - MS-DOS](https://archive.org/details/softwarelibrary_msdos_games?and%5B%5D=emulator_start%3A%2Aiafix%2A&sin=&sort=-publicdate): Online MS-DOS games
     
 ## Programming
 
@@ -37,3 +38,6 @@ for modern UI development
   
 ## Oracle
   * [BLOG - Salvis - SQLDeveloper Plugins](https://www.salvis.com/blog/download/)
+  
+## Content
+  * [E-Books](https://b-ok.cc/book/2284536/00309d) 

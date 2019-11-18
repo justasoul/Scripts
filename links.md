@@ -25,6 +25,7 @@ for modern UI development
 ## Interessantes   
   * [The Library of Babel](https://libraryofbabel.info)
   * [Diablo in Browser](https://www.reddit.com/r/programming/comments/ckk77o/diablo_1_ported_to_browser_based_on_devilution/)
+  * [Game Randomizers](https://sites.google.com/site/gamerandomizers/): A randomizer its a software that takes a game and rearranges everything in it, all at random. Enemies and item locations may be shuffled, player and enemy abilities may be changed, levels could be reordered, among other, even crazier effects. This creates a brand new, never-before-seen experience every time you play.
 
 ## Aplicações
   * [DRAKON Editor](http://drakon-editor.sourceforge.net/editor.html): Software Diagramming <img src="http://drakon-editor.sourceforge.net/crossroad.png" width="50" height="50">

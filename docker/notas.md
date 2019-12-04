@@ -1,5 +1,10 @@
 # Docker
 
+## Ver lista de volumes 
+  
+````
+docker volume list 
+````
 
 ## Ver onde um dado volume está mounted
 

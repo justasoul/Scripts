@@ -42,3 +42,4 @@ for modern UI development
   
 ## Content
   * [E-Books](https://b-ok.cc/book/2284536/00309d) 
+  * [Internet Movies Script DataBase](https://www.imsdb.com/)

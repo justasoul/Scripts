@@ -9,6 +9,7 @@
   * [CodeSandBox](https://codesandbox.io/): Code editor for Web
   * [CyberChef](https://gchq.github.io/CyberChef/): The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
   * [Archive - MS-DOS](https://archive.org/details/softwarelibrary_msdos_games?and%5B%5D=emulator_start%3A%2Aiafix%2A&sin=&sort=-publicdate): Online MS-DOS games
+  * [Arcade Spot](https://arcadespot.com/): Online Games
     
 ## Programming
 

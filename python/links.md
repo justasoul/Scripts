@@ -1,3 +1,3 @@
 # Python
   
-    * (PY-NOOB)[https://github.com/NARCOTIC/PY-NOOB]
+    * [PY-NOOB](https://github.com/NARCOTIC/PY-NOOB)

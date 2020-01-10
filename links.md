@@ -34,6 +34,8 @@ for modern UI development
   * [Looking Glass](https://github.com/dmolchanenko/LookingGlass): A cross-browser open-source tool to record, develop, debug Selenium scripts as well as identify and validate HTML objects by XPath, CSS, etc.
   * [ZPAQ](http://mattmahoney.net/dc/zpaq.html): zpaq is a free and open source incremental, journaling command-line archiver for Windows, Linux and Mac OS/X
   * [ZeroTier](https://www.zerotier.com/): Use the easiest to manage and most widely supported network virtualization platform to connect all your devices, cloud VMs, and apps as if the whole world is one big cloud region!
+  * [Broot](https://dystroy.org/broot/): Get an overview of a directory, even a big one
+  * [EagleMode](http://eaglemode.sourceforge.net/index.html): Eagle Mode is a zoomable user interface (ZUI) with file manager, file viewers, games, and more.
   
 ## Pending
   * [Software Visualization Tools](https://softvis.wordpress.com/tools/)
@@ -45,6 +47,7 @@ for modern UI development
 ## Content
   * [E-Books](https://b-ok.cc/book/2284536/00309d) 
   * [Internet Movies Script DataBase](https://www.imsdb.com/)
+  * [Palined](http://palined.com/search): Open Directories search query generator
 
 ## Firefox Plugins
   * [RESTER](https://addons.mozilla.org/pt-PT/firefox/addon/rester/)

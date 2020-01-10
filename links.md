@@ -16,6 +16,13 @@
 ### Frameworks 
   * [Sciter](https://sciter.com) : Embeddable HTML/CSS/script engine
 for modern UI development
+  * [ELM](https://elm-lang.org/): A delightful languagefor reliable webapps.
+  
+### Self-Hosted
+  * [Kanboard](https://kanboard.org/): Kanboard is a free and open source Kanban project management software.
+  * [Metabase](https://www.metabase.com/): Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.
+  * [Neo4j](https://neo4j.com/): Neo4j - The Fastest Path To Graph Success
+  
 ### Libraries  
   * Javascript
     * [Y-JS](http://y-js.org/) : Yjs is a framework for offline-first p2p shared editing on structured data like text, richtext, json, or XML. It is fairly easy to get started, as Yjs hides most of the complexity of concurrent editing

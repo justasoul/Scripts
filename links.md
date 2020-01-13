@@ -37,6 +37,7 @@ for modern UI development
   * [The Library of Babel](https://libraryofbabel.info)
   * [Diablo in Browser](https://www.reddit.com/r/programming/comments/ckk77o/diablo_1_ported_to_browser_based_on_devilution/)
   * [Game Randomizers](https://sites.google.com/site/gamerandomizers/): A randomizer its a software that takes a game and rearranges everything in it, all at random. Enemies and item locations may be shuffled, player and enemy abilities may be changed, levels could be reordered, among other, even crazier effects. This creates a brand new, never-before-seen experience every time you play.
+  * [Paper plane design that uses a flappy wing design](https://www.reddit.com/r/interestingasfuck/comments/enagg9/paper_plane_design_that_uses_a_flappy_wing_design/ )
 
 ## Aplicações
   * [DRAKON Editor](http://drakon-editor.sourceforge.net/editor.html): Software Diagramming <img src="http://drakon-editor.sourceforge.net/crossroad.png" width="50" height="50">
@@ -57,6 +58,9 @@ for modern UI development
   * [E-Books](https://b-ok.cc/book/2284536/00309d) 
   * [Internet Movies Script DataBase](https://www.imsdb.com/)
   * [Palined](http://palined.com/search): Open Directories search query generator
+  * Roms
+    * [Index of Roms](http://nwifiresticks.com/roms/ )
+    * [Roms And Rom Packs](https://www.arcadepunks.com/roms-for-arcade-and-console-emulation/ )
 
 ## Firefox Plugins
   * [RESTER](https://addons.mozilla.org/pt-PT/firefox/addon/rester/)

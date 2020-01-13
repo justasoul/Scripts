@@ -1,5 +1,5 @@
 declare 
-  lv_schema_name varchar2(100) := 'SOL_201801540';
+  lv_schema_name varchar2(100) := 'BN';
   le_user_doesnt_exist EXCEPTION; 
 
   pragma exception_init(le_user_doesnt_exist, -1918); 
@@ -13,7 +13,7 @@ begin
       dbms_output.put_line('WARN: O user já não existe!' ); 
   end; 
 
-  execute immediate 'CREATE USER ' || lv_schema_name || ' IDENTIFIED BY SOL_201801540 ';
+  execute immediate 'CREATE USER ' || lv_schema_name || ' IDENTIFIED BY ' || lv_schema_name;
  
   -- Grants 
   begin
@@ -36,5 +36,6 @@ begin
 	execute IMMEDIATE 'grant create session to ' || lv_schema_name;
 	execute immediate 'ALTER USER ' || lv_schema_name || ' DEFAULT TABLESPACE USERS';
 
-  end; 
-end; 
+  end;  
+END; 
+/

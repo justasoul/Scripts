@@ -10,7 +10,7 @@ begin
     execute immediate 'DROP USER ' || lv_schema_name || ' cascade ';
   exception 
     when le_user_doesnt_exist then
-      dbms_output.put_line('WARN: O user j· n„o existe!' ); 
+      dbms_output.put_line('WARN: O user j√° n√£o existe!' ); 
   end; 
 
   execute immediate 'CREATE USER ' || lv_schema_name || ' IDENTIFIED BY SOL_201801540 ';
@@ -32,7 +32,9 @@ begin
       execute immediate 'GRANT create ' || i.column_value || ' TO ' || lv_schema_name;
     end loop;
 
-    execute immediate 'grant all privileges to ' || lv_schema_name;
+    execute immediate 'grant all privileges to ' || lv_schema_name;                                   
+	execute IMMEDIATE 'grant create session to ' || lv_schema_name;
+	execute immediate 'ALTER USER ' || lv_schema_name || ' DEFAULT TABLESPACE USERS';
 
   end; 
 end; 

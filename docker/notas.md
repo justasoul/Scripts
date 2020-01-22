@@ -13,3 +13,13 @@ docker volume list
 docker inspect <nome_ou_id_do_volume>
 
 ```` 
+
+# Docker Compose
+  
+## Ver logs de um dado container
+
+```` 
+
+docker-compose logs -f dremio
+
+```` 

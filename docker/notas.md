@@ -41,6 +41,15 @@ docker-compose start <nome_do_container>
 
 ```` 
 
+## "Reboot-ar" um container
+  
+````
+docker-compose stop <nome_do_container>
+docker-compose rm <nome_do_container>
+docker-compose start <nome_do_container>
+
+```` 
+
 ## Ver o estado dos vários containers
 
 ```` 

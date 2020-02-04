@@ -78,4 +78,9 @@ entrypoint: ["sh", "-c", "sleep 2073600"]
 ````
 docker-compose exec SERVICE_NAME bash
 ````
-
+  
+## Projectos Interessantes 
+  
+````
+  * https://github.com/Trendyol/docker-shell
+````

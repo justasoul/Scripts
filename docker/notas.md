@@ -79,6 +79,10 @@ entrypoint: ["sh", "-c", "sleep 2073600"]
 docker-compose exec SERVICE_NAME bash
 ````
   
+## Containers Interessantes
+  
+  * [DashMachine](https://hub.docker.com/r/rmountjoy/dashmachine): Another application bookmark dashboard, with fun features. 
+  
 ## Projectos Interessantes 
   
 ````

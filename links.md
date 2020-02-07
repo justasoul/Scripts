@@ -36,6 +36,7 @@ for modern UI development
   * [online_regex_tester_and_debugger](https://www.reddit.com/r/programming/comments/cqmcts/online_regex_tester_and_debugger_for_multiple/)
   * [Find Deep Learning AI projects and pre-trained models](https://www.reddit.com/r/Python/comments/cq53v4/i_made_a_program_that_will_help_you_find_deep/)
   * [Free Things Online](https://www.reddit.com/r/AskReddit/comments/ecscwk/what_free_things_online_should_everyone_take)
+  
 ## Interessantes   
   * [The Library of Babel](https://libraryofbabel.info)
   * [Diablo in Browser](https://www.reddit.com/r/programming/comments/ckk77o/diablo_1_ported_to_browser_based_on_devilution/)
@@ -49,6 +50,7 @@ for modern UI development
   * [ZeroTier](https://www.zerotier.com/): Use the easiest to manage and most widely supported network virtualization platform to connect all your devices, cloud VMs, and apps as if the whole world is one big cloud region!
   * [Broot](https://dystroy.org/broot/): Get an overview of a directory, even a big one
   * [EagleMode](http://eaglemode.sourceforge.net/index.html): Eagle Mode is a zoomable user interface (ZUI) with file manager, file viewers, games, and more.
+  * [KASM](https://www.kasmweb.com/downloads.html): desktop and browser isolation platform
   
 ## Pending
   * [Software Visualization Tools](https://softvis.wordpress.com/tools/)

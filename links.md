@@ -60,6 +60,7 @@ for modern UI development
   * [BLOG - Salvis - SQLDeveloper Plugins](https://www.salvis.com/blog/download/)
   
 ## Content
+  * [IMDB - Graph Series Ranking ](https://tvchart.benmiz.com/)
   * [E-Books](https://b-ok.cc/book/2284536/00309d) 
   * [Internet Movies Script DataBase](https://www.imsdb.com/)
   * [Palined](http://palined.com/search): Open Directories search query generator

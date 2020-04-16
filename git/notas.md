@@ -11,7 +11,10 @@ git checkout -- <filename>
 
 ## Working with remotes
   * [LINK](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
-  
+
+## Git Cheatsheet
+  * [atlassian-git-cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+
 ## Git Feature Branch workflow
   * https://medium.com/@s.kang919/my-git-feature-branch-workflow-a4b9647ea459
   * https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad

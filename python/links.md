@@ -6,4 +6,4 @@
 ## Videos
 
   * [An Introduction to Software Design - With Python](https://www.youtube.com/watch?v=-njsRb8Tn70): Modules, Packages, ...
-  * [PyCharm - Scientific Mode](https://www.youtube.com/watch?v=46RjXawJQgg)
+  * [PyCharm - Scientific Mode](https://www.youtube.com/watch?v=46RjXawJQgg): Effective Data Science with PyCharm

@@ -8,6 +8,38 @@
 git checkout -- <filename>
 ````
 
+## Avoiding Foxtrot
+  * [how to avoid foxtrot merge in git [duplicate]](https://stackoverflow.com/questions/55155810/how-to-avoid-foxtrot-merge-in-git)
+````
+I'm going to close this as a duplicate, but the "duplicate" question itself just defines foxtrot merges without explaining why they happen.
+
+They happen because git pull means git fetch && git merge and that second git merge is a "foxtrot merge". It treats your work as the main branch, and someone else's work, done on master after you started on your work, as a secondary, probably-not-master branch. The goal of the hook is to prevent people from working on master and using git pull like this.
+
+To avoid having this sort of thing happen, you can use this simple rule (perhaps a bit too simple but it works): never do any work on master yourself.
+
+That is, after:
+
+git clone <url>
+cd <clone>
+you begin work with:
+
+git checkout -b feature/tall
+to work on the new feature named tall. You, Alice—well, that's probably not your actual name, but I have three people doing things in this example, so I've assigned you the name "A"–do all your work on your own feature/tall, while Bob and Carol do all their work on their own feature branches, whatever their features' names are.
+
+Then when your stuff is ready you do:
+
+git checkout master && git fetch && git merge
+or, if you like git pull (I don't):
+
+git checkout master && git pull
+You're now ready to merge your feature:
+
+git merge feature/tall
+and when the merge is complete—after resolving any merge conflicts if necessary—you can push again:
+
+git push
+and your work appears as a non-"foxtrot merge". Once your work is successfully merged and pushed you can delete your feature-branch. Meanwhile Bob and Carol can keep working on their features, or, if they finished before you did, your merge merges atop their merges.
+````
 
 ## Working with remotes
   * [LINK](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)

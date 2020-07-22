@@ -1,5 +1,11 @@
 # R 
 
+## Todo
+  * Flexdashboard
+  * Shiny
+  * Packrat
+  * R Markdown
+
 ## Examples
   * [LearnByExample - R](https://www.learnbyexample.org/r/)
   * [SQLite in R](https://www.datacamp.com/community/tutorials/sqlite-in-r)

@@ -2,6 +2,8 @@
 
 ## Examples
   * [LearnByExample - R](https://www.learnbyexample.org/r/)
+  * [SQLite in R](https://www.datacamp.com/community/tutorials/sqlite-in-r)
+  
 ## Cheatsheets
   * [RStudio - Cheatsheets](https://rstudio.com/resources/cheatsheets/)
 ## Videos

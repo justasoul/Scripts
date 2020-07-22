@@ -1,5 +1,7 @@
 # R 
 
+## Examples
+  * [LearnByExample](https://www.learnbyexample.org/r-scatter-plot-ggplot2/)
 ## Cheatsheets
   * [RStudio - Cheatsheets](https://rstudio.com/resources/cheatsheets/)
 ## Videos

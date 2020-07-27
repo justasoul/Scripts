@@ -23,3 +23,6 @@ MATCH (f{name:"PN.INSERT_ORDER"})-[:CALLS*1..3]-(m)-[:CALLS*1..3]-(e:EVENTO) ret
 ```` 
 MATCH (f{name:"PN.INSERT_ORDER"}),(e:EVENTO{name:"0103"}), p = shortestPath((e)-[*..15]->(f)) RETURN p
 ```` 
+
+## Links 
+  * [Quickly create example graph data for Neo4j using form fields in a Browser Guide](https://www.youtube.com/watch?v=9ejX6JWky6o)

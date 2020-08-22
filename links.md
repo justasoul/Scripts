@@ -65,6 +65,7 @@ for modern UI development
   * [E-Books](https://b-ok.cc/book/2284536/00309d) 
   * [Internet Movies Script DataBase](https://www.imsdb.com/)
   * [Palined](http://palined.com/search): Open Directories search query generator
+  * [OSGameClones](https://osgameclones.com/)  
   * Roms
     * [Index of Roms](http://nwifiresticks.com/roms/ )
     * [Roms And Rom Packs](https://www.arcadepunks.com/roms-for-arcade-and-console-emulation/ )

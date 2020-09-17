@@ -5,7 +5,8 @@
 
 ## Fazer reset a um schema
 ````cypher
-
+MATCH (n)
+DETACH DELETE n
 ````
   
 ## Merge de nodos + ligações

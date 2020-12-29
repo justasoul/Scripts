@@ -52,6 +52,7 @@ for modern UI development
   * [EagleMode](http://eaglemode.sourceforge.net/index.html): Eagle Mode is a zoomable user interface (ZUI) with file manager, file viewers, games, and more.
   * [KASM](https://www.kasmweb.com/downloads.html): desktop and browser isolation platform
   * [HardLink shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html#contact)
+  * [Play Classic Games Online](https://classicreload.com/)
   
 ## Pending
   * [Software Visualization Tools](https://softvis.wordpress.com/tools/)

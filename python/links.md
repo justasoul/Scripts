@@ -9,6 +9,7 @@
 
   * [An Introduction to Software Design - With Python](https://www.youtube.com/watch?v=-njsRb8Tn70): Modules, Packages, ...
   * [PyCharm - Scientific Mode](https://www.youtube.com/watch?v=46RjXawJQgg): Effective Data Science with PyCharm
+  * [All Top 40 Python Libraries EXPLAINED in 20 minutes](https://www.youtube.com/watch?v=-29x_deQQus)
 
 ## Blogs
   * [miguendes's blog](https://miguendes.me/ )

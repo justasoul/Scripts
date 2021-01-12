@@ -14,3 +14,21 @@
 
 ## Blogs
   * [miguendes's blog](https://miguendes.me/ )
+
+## Snippets
+
+### Decorators
+
+````python
+def my_decorator (p_repeat): # Parameters for the decorator itself
+    def outer (func):
+        def wrapper(*args, **kwargs): # Parameters for the decorated function
+            print("Before")
+            for i in range(p_repeat):
+                func(*args, **kwargs)
+            print("After")
+
+        return wrapper
+    return outer
+
+````

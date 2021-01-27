@@ -8,7 +8,7 @@
 git checkout -- <filename>
 ````
 
-## Add a new prject as a repo
+## Add a new project as a repo
   * https://gist.github.com/alexpchin/102854243cd066f8b88e
 
 ## Avoiding Foxtrot

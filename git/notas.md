@@ -8,6 +8,9 @@
 git checkout -- <filename>
 ````
 
+## Add a new prject as a repo
+  * https://gist.github.com/alexpchin/102854243cd066f8b88e
+
 ## Avoiding Foxtrot
   * [how to avoid foxtrot merge in git [duplicate]](https://stackoverflow.com/questions/55155810/how-to-avoid-foxtrot-merge-in-git)
 ````

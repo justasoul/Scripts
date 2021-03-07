@@ -6,6 +6,7 @@
 ## Interesting Libraries
   * [Gooey](https://github.com/chriskiehl/Gooey#what-is-it)
   * [Top 15 Packages](https://python.land/top-15-python-packages)
+  * [CherryPy - A Minimalist Python Web Framework](https://cherrypy.org/)
 ## Videos
 
   * [An Introduction to Software Design - With Python](https://www.youtube.com/watch?v=-njsRb8Tn70): Modules, Packages, ...

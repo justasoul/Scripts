@@ -7,6 +7,22 @@
 ````
 git checkout -- <filename>
 ````
+## Change all commit comments on a branch
+  * CHECK: [LINK](https://stackoverflow.com/questions/14381044/how-do-i-change-a-git-commit-message-in-bitbucket/49482409)
+````
+It's basically 4 step process. But a bit risky if multiple team member are working on the same branch and have their own copies. (If you are the only one working on it, go for it)
+
+This git manual explains it beautifully: Amending older or multiple commit messages
+
+git rebase -i HEAD~X (X=No of commit messages you want to change)
+
+Above command will open git file in editor. There replace text 'pick' with 'reword' and save the file.
+
+It will open editor for every commit one by one, there you again change the commit message.
+
+At the end: git push -f
+
+````
 
 ## Add a new project as a repo
   * https://gist.github.com/alexpchin/102854243cd066f8b88e

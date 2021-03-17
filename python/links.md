@@ -8,6 +8,7 @@
   * [Top 15 Packages](https://python.land/top-15-python-packages)
   * [CherryPy - A Minimalist Python Web Framework](https://cherrypy.org/)
   * [Spyre is a Web Application Framework for providing a simple user interface for Python data projects](https://github.com/adamhajari/spyre)
+  * [5 Interesting Python Libraries - Data visualization on the CLI](https://towardsdatascience.com/5-interesting-python-libraries-1395c791deb5)
 ## Videos
 
   * [An Introduction to Software Design - With Python](https://www.youtube.com/watch?v=-njsRb8Tn70): Modules, Packages, ...

@@ -71,3 +71,6 @@ and your work appears as a non-"foxtrot merge". Once your work is successfully m
   * https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad
   * https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
   * https://nvie.com/posts/a-successful-git-branching-model/
+
+## Other
+  * https://livablesoftware.com/tools-to-visualize-the-history-of-a-git-repository/

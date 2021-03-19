@@ -27,6 +27,29 @@ At the end: git push -f
 ## Add a new project as a repo
   * https://gist.github.com/alexpchin/102854243cd066f8b88e
 
+## Revert a commit and split it into 2 distinct ones (to have more focused commits)
+  * ````
+    This will set us back one commit:
+         git reset HEAD~1
+         
+    and our changes will be kept as unstaged
+    then do
+         git add -p
+         
+    and add anything that relates to the first focused issue (https://stackoverflow.com/questions/10605405/what-does-each-of-the-y-n-q-a-d-k-j-j-g-e-stand-for-in-context-of-git-p)
+    
+    afterwards just to a simple commit
+         git commit -m "blabla first issue"
+    
+    Then add what remains as another commit:
+         git add changed_file
+         git commit -m "bleble second issue"
+         
+    last step would be to force push to remote
+         git push -f
+    
+    ````
+
 ## Avoiding Foxtrot
   * [how to avoid foxtrot merge in git [duplicate]](https://stackoverflow.com/questions/55155810/how-to-avoid-foxtrot-merge-in-git)
 ````

@@ -10,6 +10,7 @@
   * [Spyre is a Web Application Framework for providing a simple user interface for Python data projects](https://github.com/adamhajari/spyre)
   * [5 Interesting Python Libraries - Data visualization on the CLI](https://towardsdatascience.com/5-interesting-python-libraries-1395c791deb5)
   * [Stop Using Print to Debug in Python. Use Icecream Instead](https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc)
+  * [Loguru](https://github.com/Delgan/loguru#asynchronous-thread-safe-multiprocess-safe)
   
 ## Videos
 

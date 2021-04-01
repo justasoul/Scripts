@@ -7,5 +7,8 @@
 ## Tutorials
   * [PySpark-Tutorial](https://www.guru99.com/pyspark-tutorial.html)
 
+## Links 
+  * [Spark Performance](https://michalsenkyr.github.io/2018/01/spark-performance)
+
 
 https://www.youtube.com/watch?v=MLXOy-OhWRY

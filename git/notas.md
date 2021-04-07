@@ -50,6 +50,13 @@ At the end: git push -f
     
     ````
 
+## Rever a local branch to the version present on remote
+https://stackoverflow.com/questions/1628088/reset-local-repository-branch-to-be-just-like-remote-repository-head
+````
+git fetch origin
+git reset --hard origin/master
+````
+
 ## Avoiding Foxtrot
   * [how to avoid foxtrot merge in git [duplicate]](https://stackoverflow.com/questions/55155810/how-to-avoid-foxtrot-merge-in-git)
 ````

@@ -39,3 +39,23 @@ def my_decorator (p_repeat): # Parameters for the decorator itself
     return outer
 
 ````
+
+### Multiline lambda function
+
+````python
+import pandas as pd
+
+df = pd.read_csv("output/edges.csv")
+
+def handle(p_df):
+    df = p_df
+    new_column_name = 'sources_changed'
+    df[new_column_name] = f"new__{df['source']}"
+    return df[new_column_name]
+
+df['source_changed'] = df.apply(
+                    lambda x: handle(x), axis=1
+               )
+
+print("END")
+````

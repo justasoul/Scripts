@@ -8,3 +8,8 @@ https://www.youtube.com/watch?v=zyAUmxPDEpE
 dosbian
 
 https://www.youtube.com/watch?v=_J8fW9dzBWQ
+
+
+ubuntu mate
+
+https://www.youtube.com/watch?v=zo5eReiXYuo

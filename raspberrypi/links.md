@@ -17,3 +17,8 @@ https://www.youtube.com/watch?v=zo5eReiXYuo
 Wireless mouse is slow:
 
 https://www.youtube.com/watch?v=NTylKIss2N4
+
+
+
+Image is on arcadepunks website
+[32gb]-Dynamo.Elite.RPi3b.3b+-DynamicDuo

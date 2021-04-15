@@ -13,3 +13,7 @@ https://www.youtube.com/watch?v=_J8fW9dzBWQ
 ubuntu mate
 
 https://www.youtube.com/watch?v=zo5eReiXYuo
+
+Wireless mouse is slow:
+
+https://www.youtube.com/watch?v=NTylKIss2N4

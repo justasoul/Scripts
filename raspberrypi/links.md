@@ -22,3 +22,7 @@ https://www.youtube.com/watch?v=NTylKIss2N4
 
 Image is on arcadepunks website
 [32gb]-Dynamo.Elite.RPi3b.3b+-DynamicDuo
+
+
+Batocera Linux V. 29 - 32 gb digital image for Raspberry Pi 4
+https://www.youtube.com/watch?v=bHSYWYcWZVA

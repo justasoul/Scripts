@@ -18,7 +18,8 @@ Wireless mouse is slow:
 
 https://www.youtube.com/watch?v=NTylKIss2N4
 
-
+IP KVM
+https://github.com/pikvm/pikvm
 
 Image is on arcadepunks website
 [32gb]-Dynamo.Elite.RPi3b.3b+-DynamicDuo

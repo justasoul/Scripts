@@ -58,7 +58,7 @@ git reset --hard origin/master
 ````
 
 ## Generate patch file between 2 branchs 
-
+Online diff viewer: [viewer](https://diffy.org/)
 ````
 git diff <one_branch> <another_branch> > patchfile
 ````

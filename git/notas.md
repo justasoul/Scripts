@@ -57,6 +57,12 @@ git fetch origin
 git reset --hard origin/master
 ````
 
+## Generate patch file between 2 branchs 
+
+````
+git diff <one_branch> <another_branch> > patchfile
+````
+
 ## Avoiding Foxtrot
   * [how to avoid foxtrot merge in git [duplicate]](https://stackoverflow.com/questions/55155810/how-to-avoid-foxtrot-merge-in-git)
 ````

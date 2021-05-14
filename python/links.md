@@ -12,6 +12,7 @@
   * [Stop Using Print to Debug in Python. Use Icecream Instead](https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc)
   * [Loguru](https://github.com/Delgan/loguru#asynchronous-thread-safe-multiprocess-safe)
   * [dataclasses / attr](https://www.youtube.com/watch?v=vBH6GRJ1REM)
+  * [Streamlit](https://streamlit.io/): Streamlit turns data scripts into shareable web apps in minutes. All in Python. All for free. No front‑end experience required.
   
 ## Videos
 

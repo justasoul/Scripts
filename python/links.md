@@ -13,6 +13,7 @@
   * [Loguru](https://github.com/Delgan/loguru#asynchronous-thread-safe-multiprocess-safe)
   * [dataclasses / attr](https://www.youtube.com/watch?v=vBH6GRJ1REM)
   * [Streamlit](https://streamlit.io/): Streamlit turns data scripts into shareable web apps in minutes. All in Python. All for free. No front‑end experience required.
+  * [Pyvis](https://pyvis.readthedocs.io/en/latest/index.html): Interactive network visualizations
   
 ## Videos
 

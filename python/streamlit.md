@@ -1,3 +1,6 @@
+## Youtube Videos:
+  * [Streamlit - Building Financial Dashboards with Python](https://www.youtube.com/watch?v=0ESc1bh3eIg)
+
 ## Debug on pycharm:
 
 https://stackoverflow.com/questions/60172282/how-to-run-debug-a-streamlit-application-from-an-ide

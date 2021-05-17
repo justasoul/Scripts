@@ -1,6 +1,7 @@
 ## Youtube Videos:
   * [Streamlit - Building Financial Dashboards with Python](https://www.youtube.com/watch?v=0ESc1bh3eIg)
   * [How to Animate Plots on Streamlit, Bring your Plots to Life!](https://www.youtube.com/watch?v=VZ_tS4F6P2A)
+  * [Create Data Visualization Web App: File Upload using Streamlit](https://www.youtube.com/watch?v=w2PwerViVbA)
 
 ## Debug on pycharm:
 

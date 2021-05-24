@@ -14,6 +14,7 @@
   * [dataclasses / attr](https://www.youtube.com/watch?v=vBH6GRJ1REM)
   * [Streamlit](https://streamlit.io/): Streamlit turns data scripts into shareable web apps in minutes. All in Python. All for free. No front‑end experience required.
   * [Pyvis](https://pyvis.readthedocs.io/en/latest/index.html): Interactive network visualizations
+  * [NiceGUI](https://pypi.org/project/nicegui/0.2.3/)
   
 ## Videos
 

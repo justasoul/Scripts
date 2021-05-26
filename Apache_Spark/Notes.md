@@ -9,6 +9,7 @@
 
 ## Links 
   * [Spark Performance](https://michalsenkyr.github.io/2018/01/spark-performance)
+  * [Spark Sql reference](https://spark.apache.org/docs/latest/sql-ref-syntax.html)
 
 
 https://www.youtube.com/watch?v=MLXOy-OhWRY

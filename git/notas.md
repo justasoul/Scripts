@@ -7,6 +7,12 @@
 ````
 git checkout -- <filename>
 ````
+
+## Show changes, but ommiting the "untracked files"
+````bash
+git status -uno
+````
+
 ## Change all commit comments on a branch
   * CHECK: [LINK](https://stackoverflow.com/questions/14381044/how-do-i-change-a-git-commit-message-in-bitbucket/49482409)
 ````

@@ -6,3 +6,15 @@
 
 ## Browser extensions
   * [Chrome Extension](https://chrome.google.com/webstore/detail/json-handle/iahnhfdhidomcpggpaimmmahffihkfnj?hl=en)
+
+# JSON Schema
+  * https://json-schema.org/learn/getting-started-step-by-step
+  
+
+  * INFER SCHEMA: https://www.liquid-technologies.com/online-json-to-schema-converter
+  * VALIDATE SCHEMA: https://www.jsonschemavalidator.net/
+  
+
+
+## references:
+  * https://json-schema.org/implementations.html

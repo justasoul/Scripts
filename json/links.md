@@ -14,7 +14,8 @@
   * INFER SCHEMA: https://www.liquid-technologies.com/online-json-to-schema-converter
   * VALIDATE SCHEMA: https://www.jsonschemavalidator.net/
   * Validate on VS CODE: https://github.com/microsoft/vscode/issues/64796
-  * Online Editor with jsonschema support: https://github.com/pmk65/jedemov2
+  * Online Editor with jsonschema support: https://pmk65.github.io/jedemov2/dist/demo.html 
+    * https://github.com/pmk65/jedemov2
   
 
 

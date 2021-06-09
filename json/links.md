@@ -13,6 +13,7 @@
 
   * INFER SCHEMA: https://www.liquid-technologies.com/online-json-to-schema-converter
   * VALIDATE SCHEMA: https://www.jsonschemavalidator.net/
+  * Validate on VS CODE: https://github.com/microsoft/vscode/issues/64796
   
 
 

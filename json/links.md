@@ -10,6 +10,8 @@
 # JSON Schema
   * https://json-schema.org/learn/getting-started-step-by-step
   
+  
+  * CDAF-672
 
   * INFER SCHEMA: https://www.liquid-technologies.com/online-json-to-schema-converter
   * VALIDATE SCHEMA: https://www.jsonschemavalidator.net/

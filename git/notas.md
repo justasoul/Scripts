@@ -68,6 +68,7 @@ Online diff viewer: [viewer](https://diffy.org/)
 ````
 git diff <one_branch> <another_branch> > patchfile
 ````
+  * Patch viewer: https://github.com/megatops/PatchViewer
 
 ## Avoiding Foxtrot
   * [how to avoid foxtrot merge in git [duplicate]](https://stackoverflow.com/questions/55155810/how-to-avoid-foxtrot-merge-in-git)

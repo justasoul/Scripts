@@ -8,4 +8,6 @@
   ````
   
   * Add to path
-    * PATH=$PATH:/new/folder/to/add/to/path
+````
+PATH=$PATH:/new/folder/to/add/to/path
+````

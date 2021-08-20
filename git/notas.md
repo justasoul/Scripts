@@ -70,6 +70,7 @@ git diff <one_branch> <another_branch> > patchfile
 ````
   * Patch viewer: https://github.com/megatops/PatchViewer
   * How to Create and Apply patchs: https://www.specbee.com/blogs/how-create-and-apply-patch-git-diff-and-git-apply-commands-your-drupal-website
+  * Patch from PR: https://coderwall.com/p/6aw72a/creating-patch-from-github-pull-request
 
 ## Avoiding Foxtrot
   * [how to avoid foxtrot merge in git [duplicate]](https://stackoverflow.com/questions/55155810/how-to-avoid-foxtrot-merge-in-git)

@@ -1,7 +1,13 @@
 # GIT
-   
- ## Actualizar o actual feature branch com a versão de master
-   * [LINK] (https://gist.github.com/santisbon/a1a60db1fb8eecd1beeacd986ae5d3ca)
+
+## Links
+  * [Typical Error Scenarios](https://www.reddit.com/r/programming/comments/prtpzr/oh_shit_git_getting_myself_out_of_bad_situations)
+    * [ohshitgit](https://ohshitgit.com/)
+    * http://justinhileman.info/article/git-pretty/git-pretty.png
+    * https://github.com/k88hudson/git-flight-rules#what-did-i-just-commit
+
+## Actualizar o actual feature branch com a versão de master
+  * [LINK] (https://gist.github.com/santisbon/a1a60db1fb8eecd1beeacd986ae5d3ca)
 
 ## Revert a local change to a file (not yet commited)
 ````

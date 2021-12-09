@@ -1,4 +1,4 @@
 
 
 ## DBEAVER
-  * shift + alt + a: Block selection (toggle)
+  * ''''shift + alt + a'''': Block selection (toggle)

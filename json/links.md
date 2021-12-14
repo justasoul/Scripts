@@ -4,6 +4,10 @@
   * [Editor/Beautifier/Converter 1](https://codebeautify.org/jsonviewer)
   * [Editor/Beautifier/Converter 2](https://jsonformatter.org/#)
 
+## JQ
+  * [JQ play](https://jqplay.org/)
+  * [Cheatsheet](https://gist.github.com/olih/f7437fb6962fb3ee9fe95bda8d2c8fa4)
+
 ## Browser extensions
   * [Chrome Extension](https://chrome.google.com/webstore/detail/json-handle/iahnhfdhidomcpggpaimmmahffihkfnj?hl=en)
 

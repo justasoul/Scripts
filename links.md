@@ -40,6 +40,7 @@ for modern UI development
   * [Free Things Online](https://www.reddit.com/r/AskReddit/comments/ecscwk/what_free_things_online_should_everyone_take)
   
 ## Interessantes   
+  * [Paper Airplanes](https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2)
   * [The Library of Babel](https://libraryofbabel.info)
   * [Diablo in Browser](https://www.reddit.com/r/programming/comments/ckk77o/diablo_1_ported_to_browser_based_on_devilution/)
   * [Game Randomizers](https://sites.google.com/site/gamerandomizers/): A randomizer its a software that takes a game and rearranges everything in it, all at random. Enemies and item locations may be shuffled, player and enemy abilities may be changed, levels could be reordered, among other, even crazier effects. This creates a brand new, never-before-seen experience every time you play.

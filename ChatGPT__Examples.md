@@ -98,3 +98,44 @@ def find_xxx_calls(code):
 # Example usage
 find_xxx_calls("xxx(1, 2, 3)")
 ````
+
+## Could you create a python function that gets all results from a call to a aws cli command? It should output all results, not only the first page
+
+````python
+import subprocess
+import pandas as pd
+from io import BytesIO
+
+def run_aws_cli(command):
+    """Run an AWS CLI command and return all results as a pandas dataframe"""
+    # Keep a list of all the output dataframes
+    dfs = []
+
+    # Keep paginating through the results until there are no more pages
+    next_token = None
+    while True:
+        # Add the next token to the command if it exists
+        if next_token:
+            command += f" --starting-token {next_token}"
+
+        # Run the command and get the output
+        output = subprocess.check_output(command, shell=True)
+        # Convert the output to a file-like object
+        output_file = BytesIO(output)
+
+        # Convert the output to a pandas dataframe
+        df = pd.read_csv(output_file)
+
+        # Append the dataframe to the list of dataframes
+        dfs.append(df)
+
+        # Check if there is a next token
+        next_token = df["NextToken"].iloc[0] if "NextToken" in df else None
+        # If there is no next token, we have reached the last page of results
+        if next_token is None:
+            break
+
+    # Concatenate all the dataframes into a single dataframe
+    result = pd.concat(dfs)
+    return result
+````

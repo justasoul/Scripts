@@ -27,8 +27,6 @@ def my_function():
 my_function()
 ````
 
----
-
 ## Could you create a simple python decorator that, if a function outputs a pandas dataframe, saves it to a sqlite database with the table name as the name of the decorated function?
 
 ````python

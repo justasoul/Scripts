@@ -76,3 +76,23 @@ def save_to_s3(dataframe, bucket_name, path):
 # example usage
 save_to_s3(my_dataframe, "my-bucket", "my-folder/my-dataframe.parquet")
 ````
+
+## Could you create a simple python function that uses the ast library to identify all calls to a function xxx and the parameter values used?
+
+````python
+import ast
+
+def find_xxx_calls(code):
+    # Use the ast.parse() function to parse the code and create an AST
+    tree = ast.parse(code)
+
+    # Use the ast.walk() function to traverse the AST and find all Call nodes
+    for node in ast.walk(tree):
+        # Check if the node is a Call node and the name of the function being called is "xxx"
+        if isinstance(node, ast.Call) and node.func.id == "xxx":
+            # Print the parameter values that are passed to the function
+            print(node.args)
+
+# Example usage
+find_xxx_calls("xxx(1, 2, 3)")
+````

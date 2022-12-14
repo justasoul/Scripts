@@ -92,6 +92,8 @@ def find_xxx_calls(code):
         if isinstance(node, ast.Call) and node.func.id == "xxx":
             # Print the parameter values that are passed to the function
             print(node.args)
+            # Use the .s attribute of the node to get the string representation of the arguments
+            print(node.args.s)
 
 # Example usage
 find_xxx_calls("xxx(1, 2, 3)")

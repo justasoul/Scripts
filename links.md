@@ -58,6 +58,7 @@ for modern UI development
   * [KASM](https://www.kasmweb.com/downloads.html): desktop and browser isolation platform
   * [HardLink shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html#contact)
   * [Play Classic Games Online](https://classicreload.com/)
+  * [Dshutdown](http://dimio.altervista.org/eng/)
   
 ## Pending
   * [Software Visualization Tools](https://softvis.wordpress.com/tools/)

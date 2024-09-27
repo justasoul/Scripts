@@ -15,7 +15,10 @@
 ## Online Learning
   * [TypingClun - Touch Typing](https://www.typingclub.com/)
   * [TypeLit.io](https://www.typelit.io/)
-  
+
+## Other
+  * [GameCrafter](https://www.thegamecrafter.com/): The Game Crafter offers game designers an easy-to-use system to make a board game, card game, or custom playing cards.
+
 ## Programming
 
 ### Frameworks 
@@ -27,6 +30,7 @@ for modern UI development
   * [Kanboard](https://kanboard.org/): Kanboard is a free and open source Kanban project management software.
   * [Metabase](https://www.metabase.com/): Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.
   * [Neo4j](https://neo4j.com/): Neo4j - The Fastest Path To Graph Success
+  * [ArchiveBox](https://archivebox.io/): ArchiveBox is a powerful, self-hosted internet archiving solution to collect, save, and view websites offline.
   
 ### Libraries  
   * Javascript

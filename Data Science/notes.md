@@ -3,3 +3,6 @@
   
 # Youtube Channels
   * [Ken Jee](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg)
+
+# Articles
+  * [Data Application with duckdb, streamlit](https://franloza.medium.com/building-a-data-application-with-duckdb-43823070730)
